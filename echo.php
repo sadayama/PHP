@@ -5,8 +5,7 @@
   <title>テスト</title>
   <style type="text/css">
   <?php
-  //スタイルは反映されない?
-        echo `body{ background-color:green;}`;
+        echo "body{ background-color:green;}";
    ?>
   </style>
 </head>
