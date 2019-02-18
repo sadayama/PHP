@@ -38,6 +38,7 @@ switch(1+3){
 // 引数を与えると、複数の階層で実行を終了する
 for ($i = 0;$i < 8;++$i){
     do {
+        // forとdo whileを終了する
         echo "<p>break 2で抜ける</p>";
         break 2;
     }while($i++ >3);
