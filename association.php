@@ -26,16 +26,18 @@ echo $association['addition'];
 // foreach文
 // 配列または連想配列に対して、先頭のデータから順に繰り返し処理を行う
 // 配列
-$sample = array('配列','出ました');
+// $変数名 =[]でarrayを省略できる。
+$sample = ['配列','出ました'];
 foreach($sample as $value){
     echo '<br>';
     echo $value;
 }
 
 // 連想配列
-foreach($association as $value){
+// foreach($連想配列名 as キー変数 => 変数値){処理};
+foreach($association as $key => $value){
     echo '<br>';
-    echo $value;
+    echo $key.$value;
 }
 ?>
 <script type="text/javascript">
