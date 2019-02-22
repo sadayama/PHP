@@ -11,7 +11,10 @@
 <body>
 <h1 id="btn">クラス</h1>
 <?php
-
+    // for(初期値;条件式;更新値){処理};
+    for($i=0;$i <= 5;$i++){
+        echo $i. "<br>";
+    };
 ?>
 <script type="text/javascript">
   "use strict";
