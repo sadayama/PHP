@@ -15,7 +15,7 @@ $chr = "文字列";
 // 文字列の文字数を返す関数
 // mb_strlen(文字列)
 // ()内には変数を入れても良い
-echo mb_strlen($chr); //9
+echo mb_strlen($chr); //3
 
 $chr = "test";
 // strlenは文字列のバイト長を取得する
