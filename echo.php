@@ -21,6 +21,7 @@
     // 計算結果の数値なども表示できる
     echo 5+8;
 ?>
+<?="省略形"?>
 <script type="text/javascript">
   "use strict";
 const btn = document.getElementById("btn")
